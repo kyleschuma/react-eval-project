@@ -4,6 +4,11 @@ import ApplicationNode from './ApplicationNode'
 import {unregister} from './services/registerServiceWorker'
 import store from './services/store'
 
+import fontawesome from '@fortawesome/fontawesome'
+import icons from '@fortawesome/fontawesome-free-solid'
+
+fontawesome.library.add(icons)
+
 const render = (Component) => {
   ReactDOM.render(
     <Component store={store} />,

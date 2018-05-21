@@ -1,0 +1,24 @@
+.repo { 
+
+  height: 6rem;
+  width: 48%;
+
+  header {
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .aside { 
+      
+      font-size: .8rem;
+      line-height: 1rem;
+
+      span { 
+        display: inline-block;
+        min-width: 64px;
+      }
+    }
+  }
+}
